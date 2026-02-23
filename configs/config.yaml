@@ -1,0 +1,21 @@
+model:
+  embed_model_path: "models/embedding/bge-base-zh-v1.5"
+  clip_model_name: "ViT-B-32"
+  clip_weight_path: "models/clip/clip_vitb32.pt"
+  dino_model_name: "vit_base_patch16_224"
+  dino_weight_path: "models/dino/dino_vitbase16_pretrain.pth"
+  llm_model_path: "models/llm/qwen2.5-7b-instruct-q3_k_m.gguf"
+  device: "cuda"  # 或 "cpu"
+
+retrieval:
+  top_k: 3
+  clip_alpha: 0.6  # CLIP权重 (DINO权重为1-clip_alpha)
+
+path:
+  persona_index: "vector_store/persona.index"
+  knowledge_index: "vector_store/knowledge.index"
+  image_index: "vector_store/image.index"
+  dino_index: "vector_store/dino.index"
+  image_meta: "vector_store/image_meta.json"
+  persona_dir: "data/persona"
+  knowledge_dir: "data/knowledge"
