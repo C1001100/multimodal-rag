@@ -115,7 +115,7 @@ Final Response
 
 ## 📌 待办事项
 
-- 添加Web界面 (Gradio/Streamlit)
+- 添加Web界面 (Gradio)
 - 优化缓存策略
 - 优化检索策略
 - 添加更多检索算法 (BM25, 混合检索)
