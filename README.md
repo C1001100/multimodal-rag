@@ -71,7 +71,7 @@ Final Response
     本项目需要以下模型文件，请自行下载并放置在对应目录：
 
     - BGE-base-zh-v1.5	
-        - 用途：文本embedding,文本类型数据	
+        - 用途：文本embedding,处理文本类型数据	
         - 下载：HuggingFace	
         - 存放路径：models/embedding/bge-base-zh-v1.5/
     - CLIP ViT-B-32	
