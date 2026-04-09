@@ -71,19 +71,19 @@ Final Response
     本项目需要以下模型文件，请自行下载并放置在对应目录：
 
     - BGE-base-zh-v1.5	
-        - 用途：文本embedding,文本类型数据	
+        - 用途：文本embedding,处理文本类型数据	
         - 下载：HuggingFace	
         - 存放路径：models/embedding/bge-base-zh-v1.5/
     - CLIP ViT-B-32	
-        - 用途：图像-文本对齐	
+        - 用途：图像-文本对齐，处理文本与图片类型数据	
         - 下载：HuggingFace		
         - 存放路径：models/clip/clip_vitb32.pt
     - Dino ViT-B-16	
-        - 用途：图像-图片	
+        - 用途：图像-图片，处理图片类型数据	
         - 下载：HuggingFace		
         - 存放路径：models/dino/dino_vitbase16_pretrain.pth
     - Qwen2.5-7B-Instruct (GGUF)	
-        - 用途：文本生成	
+        - 用途：文本生成，处理文本对话
         - 下载：HuggingFace	
         - 存放路径：models/llm/qwen2.5-7b-instruct-q3_k_m.gguf
 
