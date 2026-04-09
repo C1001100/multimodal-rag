@@ -79,11 +79,11 @@ Final Response
         - 下载：HuggingFace		
         - 存放路径：models/clip/clip_vitb32.pt
     - Dino ViT-B-16	
-        - 用途：图像-图片	
+        - 用途：图像-图片，处理图片类型数据	
         - 下载：HuggingFace		
         - 存放路径：models/dino/dino_vitbase16_pretrain.pth
     - Qwen2.5-7B-Instruct (GGUF)	
-        - 用途：文本生成	
+        - 用途：文本生成
         - 下载：HuggingFace	
         - 存放路径：models/llm/qwen2.5-7b-instruct-q3_k_m.gguf
 
