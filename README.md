@@ -75,7 +75,7 @@ Final Response
         - 下载：HuggingFace	
         - 存放路径：models/embedding/bge-base-zh-v1.5/
     - CLIP ViT-B-32	
-        - 用途：图像-文本对齐	
+        - 用途：图像-文本对齐，处理文本与图片类型数据	
         - 下载：HuggingFace		
         - 存放路径：models/clip/clip_vitb32.pt
     - Dino ViT-B-16	
